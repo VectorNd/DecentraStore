@@ -11,6 +11,7 @@ import (
 	"strings"
 )
 
+// defaultRootFolderName is the default name of the root folder.
 const defaultRootFolderName = "ggnetwork"
 
 func CASPathTransformFunc(key string) PathKey {
