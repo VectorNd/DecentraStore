@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"testing"
 )
-
+ 
 func TestCopyEncryptDecrypt(t *testing.T) {
 	payload := "Foo not bar"
 	src := bytes.NewReader([]byte(payload))

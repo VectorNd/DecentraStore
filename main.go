@@ -8,7 +8,7 @@ import (
 	"time"
 
 	"github.com/anthdm/foreverstore/p2p"
-)
+) 
 
 func makeServer(listenAddr string, nodes ...string) *FileServer {
 	tcptransportOpts := p2p.TCPTransportOpts{
