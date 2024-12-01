@@ -1,3 +1,19 @@
 # DecentraStore
 
-DecentraStore is a decentralized, content-addressable storage system built in Go, optimized for efficient large file streaming and distribution. It features robust TCP transport with custom decoders, peer-to-peer networking, and advanced error-handling mechanisms to ensure reliable distributed file storage. With its encryption and decryption protocols, DecentraStore secures data across the network, while its data broadcasting protocols enable fast and secure file handling and retrieval in a decentralized environment.
+A decentralized file storage system built with Go that allows you to securely store and stream large files across a network of connected peers.
+
+## What is DecentraStore?
+
+DecentraStore is like a secure, distributed Dropbox that:
+- Stores files across multiple computers (nodes) instead of a central server
+- Automatically encrypts your files for security
+- Lets you stream large files efficiently
+- Connects directly to other users for faster transfers
+
+## Features
+
+- ✨ Store files of any size
+- 🔒 Automatic encryption of all files
+- 🚀 Fast streaming of large files
+- 🌐 Peer-to-peer file sharing
+- 💾 Content-addressable storage (files are stored based on their content)
