@@ -13,6 +13,7 @@ import (
 	"github.com/anthdm/foreverstore/p2p"
 )
 
+// FileServerOpts is the options for the FileServer.
 type FileServerOpts struct {
 	ID                string
 	EncKey            []byte
